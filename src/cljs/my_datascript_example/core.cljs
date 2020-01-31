@@ -25,6 +25,7 @@
     (re-frame/dispatch-sync [::events/initialize-db])
     ds))
 
+;; periodically saves your Datascript db
 (defn persist-ds [ds]
   (js/setInterval
     #(aset js/sessionStorage "last-state" (dt/write-transit-str @ds))
