@@ -6,6 +6,7 @@
                  [com.bhauman/figwheel-main "0.2.3"]
                  [com.bhauman/rebel-readline-cljs "0.1.4"]
                  [datascript "0.18.8"]
+                 [datascript-transit "0.3.0"]
                  [devcards "0.2.6"]
                  [metosin/reitit "0.3.10"]
                  [net.dhleong/spade "1.0.3"]
