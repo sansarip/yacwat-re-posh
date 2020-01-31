@@ -5,15 +5,16 @@
   :dependencies [[binaryage/devtools "0.9.10"]
                  [com.bhauman/figwheel-main "0.2.3"]
                  [com.bhauman/rebel-readline-cljs "0.1.4"]
+                 [datascript "0.18.8"]
                  [devcards "0.2.6"]
                  [metosin/reitit "0.3.10"]
                  [net.dhleong/spade "1.0.3"]
                  [org.clojure/clojure "1.10.1"]
                  [org.clojure/clojurescript "1.10.520"]
                  [re-frame "0.11.0"]
+                 [re-posh "0.3.1"]
                  [reagent "0.9.1"]
                  [ring "1.7.1"]
-                 
                  [yogthos/config "1.1.5"]]
   :min-lein-version "2.5.3"
   :source-paths ["src/clj" "src/cljs"]
